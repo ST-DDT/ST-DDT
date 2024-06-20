@@ -18,13 +18,13 @@ jobs:
       contents: write
     steps:
       - id: self
-        uses: lowlighter/metrics@v4
+        uses: lowlighter/metrics@v3
         with:
           filename: metrics.self.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
       - id: faker
-        uses: lowlighter/metrics@v4
+        uses: lowlighter/metrics@v3
         with:
           filename: metrics.faker.svg
           token: ${{ secrets.METRICS_TOKEN }}
