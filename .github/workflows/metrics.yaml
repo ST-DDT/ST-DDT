@@ -20,13 +20,13 @@ jobs:
       - id: self
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.classic.svg
+          filename: metrics.self.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
       - id: faker
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.classic.svg
+          filename: metrics.faker.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           user: faker-js
