@@ -25,6 +25,13 @@ jobs:
           base: header, repositories
           base_indepth: yes
           repositories_affiliations: 'owner, collaborator'
+      - name: Detailed display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ''
+          plugin_achievements: yes
       - name: Current year calendar
         uses: lowlighter/metrics@latest
         with:
@@ -41,3 +48,11 @@ jobs:
           base: ''
           plugin_repositories: yes
           plugin_repositories_featured: faker-js/faker
+      - name: faker
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          filename: metrics.grpc-spring.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ''
+          plugin_repositories: yes
+          plugin_repositories_featured: grpc-ecosystem/grpc-spring

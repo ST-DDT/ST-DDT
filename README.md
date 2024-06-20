@@ -12,9 +12,13 @@ Maintainer of
 
 - [grpc-ecosystem/grpc-spring](https://github.com/grpc-ecosystem/grpc-spring)
 
+  ![grpc-ecosystem/grpc-spring GH metrics](metrics.grpc-spring.svg)
+
+![achievements](metrics.achievements.svg)
+
 <details>
 <summary>Commit History</summary>
 
-![](metrics.calendar.svg)
+![commit calendar](metrics.calendar.svg)
 
 </details>
