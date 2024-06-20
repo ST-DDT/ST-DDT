@@ -2,7 +2,7 @@
 
 I'm a passionate developer using OpenSource to keep up with the latest tech.
 
-[![ST-DDT GH metrics](metrics.self.svg)](https://github.com/ST-DDT?tab=repositories)
+[![ST-DDT GH metrics](metrics.self.svg)](https://github.com/ST-DDT?tab=repositories&type=)
 
 Maintainer of
 
