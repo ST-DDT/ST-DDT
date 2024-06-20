@@ -2,9 +2,12 @@
 
 I'm a passionate developer using OpenSource to keep up with the latest tech.
 
+![ST-DDT GH metrics](metrics.self.svg)
+
 Maintainer of
 
-- [![faker-js/faker](metrics.faker.svg)](https://github.com/faker-js/faker)
-- [grpc-ecosystem/grpc-spring](https://github.com/grpc-ecosystem/grpc-spring)
+- [faker-js/faker](https://github.com/faker-js/faker)
 
-![metrics](metrics.self.svg)
+  ![faker-js/faker GH metrics](metrics.faker.svg)
+
+- [grpc-ecosystem/grpc-spring](https://github.com/grpc-ecosystem/grpc-spring)
