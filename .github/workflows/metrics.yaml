@@ -23,6 +23,7 @@ jobs:
           filename: metrics.self.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
+          base_indepth: yes
       - name: Current year calendar
         uses: lowlighter/metrics@latest
         with:
