@@ -36,5 +36,6 @@ jobs:
         with:
           filename: metrics.faker.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          user: faker-js
+          base: ''
+          plugin_repositories: yes
+          plugin_repositories_featured: faker-js/faker

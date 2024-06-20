@@ -11,3 +11,10 @@ Maintainer of
   ![faker-js/faker GH metrics](metrics.faker.svg)
 
 - [grpc-ecosystem/grpc-spring](https://github.com/grpc-ecosystem/grpc-spring)
+
+<details>
+<summary>Commit History</summary>
+
+![](metrics.calendar.svg)
+
+</details>
