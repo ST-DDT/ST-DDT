@@ -1,0 +1,15 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: [
+    'config:best-practices',
+    'schedule:earlyMondays',
+    'group:allNonMajor',
+    ':prHourlyLimitNone',
+  ],
+  labels: ['dependencies'],
+  lockFileMaintenance: {
+    enabled: true,
+  },
+  rangeStrategy: 'pin',
+  stopUpdatingLabel: 'on hold',
+}
