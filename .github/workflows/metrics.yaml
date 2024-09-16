@@ -40,19 +40,20 @@ jobs:
           base: ''
           plugin_calendar: yes
           plugin_calendar_limit: 0
-      - name: faker
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          filename: metrics.faker.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ''
-          plugin_repositories: yes
-          plugin_repositories_featured: faker-js/faker
-      - name: faker
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          filename: metrics.grpc-spring.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ''
-          plugin_repositories: yes
-          plugin_repositories_featured: grpc-ecosystem/grpc-spring
+      # requires org owned access token
+      #- name: faker
+      #  uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+      #  with:
+      #    filename: metrics.faker.svg
+      #    token: ${{ secrets.METRICS_TOKEN }}
+      #    base: ''
+      #    plugin_repositories: yes
+      #    plugin_repositories_featured: faker-js/faker
+      #- name: grpc-spring
+      #  uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+      #  with:
+      #    filename: metrics.grpc-spring.svg
+      #    token: ${{ secrets.METRICS_TOKEN }}
+      #    base: ''
+      #    plugin_repositories: yes
+      #    plugin_repositories_featured: grpc-ecosystem/grpc-spring
